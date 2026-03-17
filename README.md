@@ -32,6 +32,11 @@ A Minecraft Client made for being able to run Meteor-Client Addons without havin
 3. **Move:** Drop the `.jar` into your Minecraft `mods` folder.
 4. **Launch:** Start Minecraft and enjoy!
 
+< [!INFO]
+< ℹ️ Info: my Meteor Client addon [Moid-Addon](https://github.com/Moid-M/Moid-Addon) is preinstalled if you do not want it inside your client and raw you will have to clone the repo, remove the modules manually and compile it yourself
+>
+
+
 
 ## 🧩 The Full Suite
 
