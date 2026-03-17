@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "dev.moid.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinClientBrandCustomPayload"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "moid-client",
+  "version": "1.0.0",
+  "name": "Moid Client",
+  "description": "A open source Fabric utility client for 1.21.x",
+  "authors": ["YourNameHere"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.moid.client.MoidClient"]
+  },
+  "mixins": ["moid-client.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "fabric-api": "*",
+    "minecraft": ">=1.21",
+    "java": ">=21"
+  },
+  "provides": ["meteor-client"],
+  "custom": {
+    "fabric-loom:injected_interfaces": {}
+  }
+}
